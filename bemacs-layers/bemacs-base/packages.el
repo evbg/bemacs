@@ -5,6 +5,7 @@
     parinfer
     ag
     httprepl
+    yasnippet-snippets
     iedit ;; bind
     buffer-move ;; bind
     speed-type ;; bind
@@ -72,6 +73,9 @@ Each entry is either:
 
 (defun bemacs-base/init-httprepl ()
   (use-package httprepl :ensure t))
+
+(defun bemacs-base/init-yasnippet-snippets ()
+  (use-package yasnippet-snippets :ensure t))
 
 (defun bemacs-base/init-iedit ()
   (use-package iedit :ensure t
