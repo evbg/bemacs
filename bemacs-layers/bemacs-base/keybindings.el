@@ -5,3 +5,6 @@
 
 (global-unset-key (kbd "<f11>"))
 (global-set-key (kbd "<f11>") 'toggle-frame-maximized)
+
+(global-unset-key (kbd "C-s-`"))
+(global-set-key (kbd "C-s-`") 'company-yasnippet)
