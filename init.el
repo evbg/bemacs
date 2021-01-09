@@ -35,7 +35,6 @@ values."
                  typescript-fmt-on-save t
                  typescript-fmt-tool 'typescript-formatter
                  )
-     rust
      javascript
      python
      ;; ----------------------------------------------------------------
