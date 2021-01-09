@@ -8,4 +8,8 @@
                                       html
                                       search-engine
                                       command-log
+                                      ansible
+                                      yaml
+                                      csv
+                                      restclient
                                       ))
