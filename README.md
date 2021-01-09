@@ -10,7 +10,7 @@
 ```
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 git clone https://github.com/evbg/bemacs ~/.emacs.d/private/local/bemacs
-cp ~/.emacs.d/private/local/bemacs/.spacemacs ~/
+cp ~/.emacs.d/private/local/bemacs/init.el ~/.spacemacs
 mkdir -p ~/.emacs.d/.cache/layouts
 cp ~/.emacs.d/private/local/bemacs/.cache/layouts/untitled-10 ~/.emacs.d/.cache/layouts/
 ```
