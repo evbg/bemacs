@@ -59,7 +59,22 @@ values."
    ;; wrapped in a layer. If you need some configuration for these
    ;; packages, then consider creating a layer. You can also put the
    ;; configuration in `dotspacemacs/user-config'.
-   dotspacemacs-additional-packages '()
+   dotspacemacs-additional-packages '(
+                                      (dash
+                                       :location (recipe
+                                                  :fetcher github
+                                                  :repo "magnars/dash.el"
+                                                  :commit "721436b04da4e2795387cb48a98ac6de37ece0fd"
+                                                  )
+                                       )
+                                      (anaconda-mode
+                                       :location (recipe
+                                                  :fetcher github
+                                                  :commit "10299bd9ff38c4f0da1d892905d02ef828e7fdce"
+                                                  :repo "pythonic-emacs/anaconda-mode"
+                                                  )
+                                       )
+                                      )
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
    ;; A list of packages that will not be installed and loaded.
